@@ -11,7 +11,11 @@ on:
       - main
     paths:
       - main.py
-
+      
+env:
+    GITHUB_NAME: gavin-Angry-Birds
+    GITHUB_EMAIL: 332163573@qq.com
+    
 jobs:
   sync:
     name: Generate README
