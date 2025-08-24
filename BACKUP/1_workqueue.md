@@ -1,4 +1,4 @@
-# [workqueue](https://github.com/gavin-Angry-Birds/gavin.github.io/issues/1)
+# [workqueue](https://github.com/gavin-Angry-Birds/gavin-angry-birds.github.io/issues/1)
 
 ### `workqueue` 介绍与分析
 
@@ -11,9 +11,11 @@
 * **高优先级队列（`highpri`）** 使用 `nice` 值为 -20，类似于 `softirq`，这是所有任务中优先级最高的。
 * 与 `softirq` 和 `tasklet` 等底半部机制不同，`workqueue` 允许在任务执行时进入睡眠状态，这使得它能处理更复杂的任务。
 
-接下来，文章中展示了通过 `workqueue` 处理底半部任务的流程：
+接下来的图片展示了通过 `workqueue` 处理底半部任务的流程：
 
-* **中断处理** -> 将任务交给 `workqueue` -> `worker` 线程处理工作。
+<img width="1599" height="223" alt="Image" src="https://github.com/user-attachments/assets/b7f5d7ba-b5db-4968-bdd1-766a9ae7f17e" />
+
+> **中断处理** -> 将任务交给 `workqueue` -> `worker` 线程处理工作。
 
 ---
 
