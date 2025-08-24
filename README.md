@@ -5,7 +5,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 [RSS Feed](https://raw.githubusercontent.com/gavin-Angry-Birds/gavin-angry-birds.github.io/master/feed.xml)
 
 ## 最近更新
-- [workqueue](https://github.com/gavin-Angry-Birds/gavin-angry-birds.github.io/issues/1)--2025-08-23
+- [workqueue介绍](https://github.com/gavin-Angry-Birds/gavin-angry-birds.github.io/issues/1)--2025-08-23
 ## linux kernel
 
-- [workqueue](https://github.com/gavin-Angry-Birds/gavin-angry-birds.github.io/issues/1)--2025-08-23
+- [workqueue介绍](https://github.com/gavin-Angry-Birds/gavin-angry-birds.github.io/issues/1)--2025-08-23
